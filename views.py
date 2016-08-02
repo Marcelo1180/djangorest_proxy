@@ -12,9 +12,9 @@ from rest_framework.views import APIView
 from rest_framework.utils.mediatypes import media_type_matches
 from rest_framework.exceptions import UnsupportedMediaType
 
-from rest_framework_proxy.settings import api_proxy_settings
-from rest_framework_proxy.adapters import StreamingHTTPAdapter
-from rest_framework_proxy.utils import StreamingMultipart, generate_boundary
+from djangorest_proxy.settings import api_proxy_settings
+from djangorest_proxy.adapters import StreamingHTTPAdapter
+from djangorest_proxy.utils import StreamingMultipart, generate_boundary
 
 
 class BaseProxyView(APIView):
